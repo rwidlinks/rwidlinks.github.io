@@ -304,7 +304,7 @@
     function deletingEffect() {
       let word = words[i].split("");
       var loopDeleting = function() {
-        if (word.length > 1) {
+        if (word.length > 5) {
           word.pop();
           document.getElementById('word').innerHTML = word.join("");
         } else {
