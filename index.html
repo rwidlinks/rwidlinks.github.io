@@ -306,7 +306,7 @@
       var loopDeleting = function() {
         if (word.length > 1) {
           word.pop();
-          document.getElementById('word').innerHTML = word.join("");
+          document.getElementById('word').innerHTML = word;// word.join("");
         } else {
           if (words.length > (i + 1)) {
             i++;
